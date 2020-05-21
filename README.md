@@ -4,7 +4,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 #### HOW TO RUN
 1. Open command prompt or else
-2. Move to the directory `cd Documents\Neural Network Dependency Parser`
+2. Move to the directory `cd Neural Network Dependency Parser`
 3. Run `python model.py`
 
 #### HOW TO RUN USING MY OWN HYPER PARAMETERS
