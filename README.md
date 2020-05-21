@@ -1,5 +1,5 @@
 ## NEURAL NETWORK DEPENDENCY PARSER
-A Neural Network Dependency Parser using TensorFlow based on paper [A Fast and Accurate Dependency Parser using Neural Networks]  
+Neural Network Dependency Parser using TensorFlow based on paper [A Fast and Accurate Dependency Parser using Neural Networks]  
 Inspired by https://github.com/bryanlimy/neural-dependency-parser  
 
 ### HOW TO RUN
@@ -9,7 +9,8 @@ Inspired by https://github.com/bryanlimy/neural-dependency-parser
 
 ### HOW TO RUN USING MY OWN HYPER PARAMETERS
 1. You can change manually the hyper parameters in model.py from line 19 to line 25 and run 'python model.py'
-2. OR simply you can run 'python model.py --optimizer=adam --lr=0.001 --activation=relu --hidden=4 --hidden_size=500 -l2_beta=10e-8'  
+2. OR simply you can run  
+   'python model.py --optimizer=adam --lr=0.001 --activation=relu --hidden=4 --hidden_size=500 -l2_beta=10e-8'  
    Change the parameters as you want (for list of the hyper parameters scroll down in this file).
 
 ### OUTPUT FOLDER
