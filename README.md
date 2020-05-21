@@ -24,7 +24,7 @@ Note: If you don't want the output arcs of the training data, delete the code `o
 #### HOW TO ADD A NEW CORPUS/DATASET
 - Open corpora folder and copy your new corpus folder inside
 - In data.py line 70 write the code above :  
-  `ud_english = LazyCorpusLoader(  
+  `ud_english = LazyCorpusLoader(`  
   `'ud_english', UniversalDependencyCorpusReader, r'.*\.conll')`  
 - Note: change the `ud_english` to your corpus folder name
 
