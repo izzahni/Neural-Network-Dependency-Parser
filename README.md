@@ -1,5 +1,6 @@
 ## NEURAL NETWORK DEPENDENCY PARSER
 A Neural Network Dependency Parser using TensorFlow based on paper [A Fast and Accurate Dependency Parser using Neural Networks]
+Inspired by https://github.com/bryanlimy/neural-dependency-parser
 
 ### HOW TO RUN
 1. Open command prompt or else
