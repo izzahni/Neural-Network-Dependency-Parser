@@ -59,11 +59,10 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 - optimizer `--optimizer`, can be `adam` or `adagrad`
 
 #### FINAL RESULT
-----------------------------------------------------------------
+
 | Dataset    | TEST LAS | TEST UAS | DEV LAS | DEV UAS | Speed |
 |------------|----------|----------|---------|---------|-------|
 | Arabic     |          |          |         |         |       |
 | Chinese    |          |          |         |         |       |
 | English    |          |          |         |         |       |
 | Indonesian |          |          |         |         |       |
-----------------------------------------------------------------
