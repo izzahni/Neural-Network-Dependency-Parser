@@ -28,10 +28,10 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 3. Run `python model.py`
 
 #### HOW TO RUN USING MY OWN HYPER PARAMETERS
-1. You can change manually the hyper parameters in `model.py` from line 19 to line 25 and run `python model.py`
-2. OR simply you can run this code  
-   `python model.py --optimizer=adam --lr=0.001 --activation=relu --hidden=4 --hidden_size=500 -l2_beta=10e-8`   
-   Change the parameters as you want (for list of the hyper parameters scroll down in this file)
+- You can change manually the hyper parameters in `model.py` from line 19 to line 25 and run `python model.py`
+- OR simply you can run this code  
+  `python model.py --optimizer=adam --lr=0.001 --activation=relu --hidden=4 --hidden_size=500 -l2_beta=10e-8`   
+  Change the parameters as you want (for list of the hyper parameters scroll down in this file)
 
 #### OUTPUT FOLDER
 - If you don't want the output arcs of training data, delete the code `output/ud_english-out.txt` in `model.py` line 26  
@@ -60,7 +60,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 #### FINAL RESULT
 
-1. Based on the Paper
+- Based on the Paper
 
 | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Speed |
 | :--------: | :------: | :------: | :-----: | :-----: | :---: |
@@ -69,7 +69,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 | English    |  80.1    |  82.7    |  80.7   |  83.2   |  58   |
 | Indonesian |          |          |         |         |       |
 
-2. New Hyper-Parameters
+- New Hyper-Parameters
 
 | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Speed |
 | :--------: | :------: | :------: | :-----: | :-----: | :---: |
