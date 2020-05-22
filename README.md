@@ -57,3 +57,13 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 - l2 regularization beta `-l2_beta`
 - activation `--activation` can be `relu` or `cube`
 - optimizer `--optimizer`, can be `adam` or `adagrad`
+
+#### FINAL RESULT
+======================================================================
+|      Dataset     | DEV UAS | DEV LAS | TEST UAS | TEST LAS | Speed |
+|====================================================================|
+|     ud_arabic    |         |         |          |          |       |
+|    ud_chinese    |         |         |          |          |       |
+|    ud_english    |         |         |          |          |       |
+|  ud_indonesian   |         |         |          |          |       |
+|==================|=========|=========|==========|==========|=======|
