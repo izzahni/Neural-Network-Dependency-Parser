@@ -62,8 +62,8 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 -------------------------------------------------------------------
 |    Dataset    | TEST LAS | TEST UAS | DEV LAS | DEV UAS | Speed |
 |---------------|----------|----------|---------|---------|-------|
-| ud_arabic     |          |          |         |         |       |
-| ud_chinese    |          |          |         |         |       |
-| ud_english    |          |          |         |         |       |
-| ud_indonesian |          |          |         |         |       |
--------------------------------------------------------------------
+| Arabic        |          |          |         |         |       |
+| Chinese       |          |          |         |         |       |
+| English       |          |          |         |         |       |
+| Indonesian    |          |          |         |         |       |
+|---------------|----------|----------|---------|---------|-------|
