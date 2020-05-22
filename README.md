@@ -16,7 +16,10 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 4. GPU support requires a CUDA®-enabled card (Ubuntu and Windows)
    - I'm using [CUDA 10.2](https://developer.nvidia.com/cuda-downloads) and [cuDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-download)
 5. Tensorflow and Tensorflow-gpu
-   - I'm using Tensorflow 1.15 (pip install tensorflow=1.15) and Tensorflow-gpu 1.15 (pip install tensorflow-gpu==1.15)  
+   - I'm using [Tensorflow 1.15](https://www.tensorflow.org/install/pip) and [Tensorflow-gpu 1.15](https://www.tensorflow.org/install/pip)
+     - Install using command prompt
+       `pip install tensorflow=1.15`
+       `pip install tensorflow-gpu==1.15`
 6. Command Prompt or else
 
 #### HOW TO RUN
