@@ -20,7 +20,6 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
      - Install using command prompt  
        `pip install tensorflow==1.15`  
        `pip install tensorflow-gpu==1.15`  
-6. Command Prompt or else
 
 #### HOW TO RUN
 1. Open command prompt or else
