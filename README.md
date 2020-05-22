@@ -60,7 +60,6 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 #### FINAL RESULT
 See the final result documentation in folder `output/final`
-
 - Based on the Paper
   | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
   | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
@@ -68,7 +67,6 @@ See the final result documentation in folder `output/final`
   | Chinese    |          |          |         |         |               |
   | English    |  80.1    |  82.7    |  80.7   |  83.2   |      58       |
   | Indonesian |          |          |         |         |               |
-
 - New Hyper-Parameters
   | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
   | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
