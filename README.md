@@ -2,7 +2,7 @@
 This is a Neural Network Dependency Parser using TensorFlow based on the paper  
 [A Fast and Accurate Dependency Parser using Neural Networks](https://www.aclweb.org/anthology/D14-1082.pdf)  
 
-#### REQUIREMENTS FOR NEURAL NETWORK DEPENDENCY PARSER
+#### REQUIREMENTS
 1. Python 3.5–3.8  
    - I'm using [python 3.7.7](https://www.python.org/downloads/release/python-377/)
 2. Pip 19.0 or later (requires manylinux2010 support)
