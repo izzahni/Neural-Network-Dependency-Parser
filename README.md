@@ -62,7 +62,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 - Based on the Paper
   | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
-  | :--------: | :------: | :------: | :-----: | :-----: | :------: |
+  | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
   | Arabic     |          |          |         |         |               |
   | Chinese    |          |          |         |         |               |
   | English    |  80.1    |  82.7    |  80.7   |  83.2   |      58       |
