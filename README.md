@@ -15,7 +15,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 #### OUTPUT FOLDER
 - If you don't want the output arcs of training data, delete the code `output/ud_english-out.txt` in `model.py` line 26  
-- If you want, don't forget to change the `ud_english-out.txt` to your output name everytime you running the program  
+- If you want, don't forget to change the `ud_english-out.txt` to your output name each time you're running the program  
 - See the output arcs of training data in folder output
 
 #### HOW TO CHANGE THE DATASET
