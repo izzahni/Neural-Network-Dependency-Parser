@@ -10,12 +10,11 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 3. Operation System  
    - Ubuntu 16.04 or later (64-bit)  
    - MacOS 10.12.6 (Sierra) or later (64-bit) (no GPU support)  
-   - Windows 7 or later (64-bit) and Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019
-   (https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+   - Windows 7 or later (64-bit) and [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
      - I'm using windows 10  
    - Raspbian 9.0 or later  
 4. GPU support requires a CUDA®-enabled card (Ubuntu and Windows)
-   - I'm using CUDA 10.2 (https://developer.nvidia.com/cuda-downloads) and cuDNN 7.6.5 (https://developer.nvidia.com/rdp/cudnn-download)
+   - I'm using [CUDA 10.2](https://developer.nvidia.com/cuda-downloads) and [cuDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-download)
 5. Tensorflow and Tensorflow-gpu
    - I'm using Tensorflow 1.15 (pip install tensorflow=1.15) and Tensorflow-gpu 1.15 (pip install tensorflow-gpu==1.15)  
 6. Command Prompt or else
