@@ -4,15 +4,15 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 #### REQUIREMENTS FOR NEURAL NETWORK DEPENDENCY PARSER
 1. Python 3.5–3.8  
-   - I'm using python 3.7.7  
-2. Pip 19.0 or later (requires manylinux2010 support)  
-   - I'm using pip 20.1  
-3. Operation System  
-   - Ubuntu 16.04 or later (64-bit)  
-   - MacOS 10.12.6 (Sierra) or later (64-bit) (no GPU support)  
+   - I'm using [python 3.7.7](https://www.python.org/downloads/release/python-377/)
+2. Pip 19.0 or later (requires manylinux2010 support)
+   - I'm using pip 20.1
+3. Operation System
+   - Ubuntu 16.04 or later (64-bit)
+   - MacOS 10.12.6 (Sierra) or later (64-bit) (no GPU support)
    - Windows 7 or later (64-bit) and [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
-     - I'm using windows 10  
-   - Raspbian 9.0 or later  
+     - I'm using windows 10
+   - Raspbian 9.0 or later
 4. GPU support requires a CUDA®-enabled card (Ubuntu and Windows)
    - I'm using [CUDA 10.2](https://developer.nvidia.com/cuda-downloads) and [cuDNN 7.6.5](https://developer.nvidia.com/rdp/cudnn-download)
 5. Tensorflow and Tensorflow-gpu
