@@ -60,7 +60,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 
 #### FINAL RESULT
 
-|   Dataset   | TEST LAS | TEST UAS | DEV LAS | DEV UAS | Speed |
+|   Dataset   | Test LAS | Test UAS | Dev LAS | Dev UAS | Speed |
 | :---------: | :------: | :------: | :-----: | :-----: | :---: |
 | Arabic      |          |          |         |         |       |
 | Chinese     |          |          |         |         |       |
