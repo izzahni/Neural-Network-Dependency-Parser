@@ -19,10 +19,11 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
    - I'm using [Tensorflow 1.15](https://www.tensorflow.org/install/pip) and [Tensorflow-gpu 1.15](https://www.tensorflow.org/install/pip)
      - Install using command prompt  
        `pip install tensorflow==1.15`  
-       `pip install tensorflow-gpu==1.15`  
+       `pip install tensorflow-gpu==1.15`
+6. Command Prompt or else
 
 #### HOW TO RUN
-1. Open command prompt or else
+1. Open Command Prompt
 2. Move to the directory `cd Neural Network Dependency Parser`
 3. Run `python model.py`
 
