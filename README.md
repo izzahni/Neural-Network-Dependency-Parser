@@ -46,7 +46,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 - Open corpora folder and copy your new corpus folder inside
 - In `data.py` line 70 write the code above :  
   `ud_english = LazyCorpusLoader(`  
-      `'ud_english', UniversalDependencyCorpusReader, r'.*\.conll')`  
+  `'ud_english', UniversalDependencyCorpusReader, r'.*\.conll')`  
 - Note: change the `ud_english` to your corpus folder name
 
 #### HYPER-PARAMETERS OPTION
