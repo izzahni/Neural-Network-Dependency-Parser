@@ -27,7 +27,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 2. Move to the directory `cd Neural Network Dependency Parser`
 3. Run `python model.py`
 
-#### HOW TO RUN USING MY OWN HYPER PARAMETERS
+#### HOW TO RUN WITH A NEW HYPER PARAMETERS
 - You can change manually the hyper parameters in `model.py` from line 19 to line 25 and run `python model.py`
 - OR simply you can run this code  
   `python model.py --optimizer=adam --lr=0.001 --activation=relu --hidden=4 --hidden_size=500 -l2_beta=10e-8`   
