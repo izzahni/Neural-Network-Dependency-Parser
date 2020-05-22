@@ -61,17 +61,17 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 #### FINAL RESULT
 
 - Based on the Paper
-  | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Speed |
-  | :--------: | :------: | :------: | :-----: | :-----: | :---: |
-  | Arabic     |          |          |         |         |       |
-  | Chinese    |          |          |         |         |       |
-  | English    |  80.1    |  82.7    |  80.7   |  83.2   |  58   |
-  | Indonesian |          |          |         |         |       |
+  | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
+  | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
+  | Arabic     |          |          |         |         |               |
+  | Chinese    |          |          |         |         |               |
+  | English    |  80.1    |  82.7    |  80.7   |  83.2   |      58       |
+  | Indonesian |          |          |         |         |               |
 
 - New Hyper-Parameters
-  | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Speed |
-  | :--------: | :------: | :------: | :-----: | :-----: | :---: |
-  | Arabic     |          |          |         |         |       |
-  | Chinese    |          |          |         |         |       |
-  | English    |          |          |         |         |       |
-  | Indonesian |          |          |         |         |       |
+  | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
+  | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
+  | Arabic     |          |          |         |         |               |
+  | Chinese    |          |          |         |         |               |
+  | English    |          |          |         |         |               |
+  | Indonesian |          |          |         |         |               |
