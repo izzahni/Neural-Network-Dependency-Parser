@@ -22,7 +22,7 @@ tf.flags.DEFINE_integer("hidden_size", 200, "hidden size for each layer")
 tf.flags.DEFINE_integer("epochs", 10, "number of epochs")
 tf.flags.DEFINE_float("l2_beta", 10e-8, "beta for computing l2 regularization")
 tf.flags.DEFINE_string("activation", "relu", "activation function, can be relu or cube")
-tf.flags.DEFINE_string("optimizer", "adagrad", "optimizer, can be adam or adagrad")
+tf.flags.DEFINE_string("optimizer", "adam", "optimizer, can be adam or adagrad")
 tf.flags.DEFINE_string("output", "output/ud_english-out.txt", "output filename for arcs")
 
 FLAGS = tf.app.flags.FLAGS
