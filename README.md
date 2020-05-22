@@ -72,5 +72,5 @@ See the final result documentation in folder `output/final`
   | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
   | Arabic     |          |          |         |         |               |
   | Chinese    |          |          |         |         |               |
-  | English    |          |          |         |         |               |
+  | English    |  80.4    |  83.0    |  81.1   |  83.7   |      98       |
   | Indonesian |          |          |         |         |               |
