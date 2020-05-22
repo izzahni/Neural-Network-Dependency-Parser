@@ -18,7 +18,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 5. Tensorflow and Tensorflow-gpu
    - I'm using [Tensorflow 1.15](https://www.tensorflow.org/install/pip) and [Tensorflow-gpu 1.15](https://www.tensorflow.org/install/pip)
      - Install using command prompt
-       `pip install tensorflow=1.15`
+       `pip install tensorflow==1.15`
        `pip install tensorflow-gpu==1.15`
 6. Command Prompt or else
 
