@@ -6,7 +6,7 @@ This is a Neural Network Dependency Parser using TensorFlow based on the paper
 1. Python 3.5–3.8  
    - I'm using [python 3.7.7](https://www.python.org/downloads/release/python-377/)
 2. Pip 19.0 or later (requires manylinux2010 support)
-   - I'm using pip 20.1
+   - I'm using [pip 20.1](https://pip.pypa.io/en/stable/)
 3. Operation System
    - Ubuntu 16.04 or later (64-bit)
    - MacOS 10.12.6 (Sierra) or later (64-bit) (no GPU support)
