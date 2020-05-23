@@ -1,0 +1,94 @@
+================================================================================
+INITIALIZING
+================================================================================
+Loading word embeddings...there are 4003 word embeddings.
+Determining POS tags...there are 13 tags.
+Determining deprel labels...there are 39 deprel labels.
+Getting training data...there are 220116 samples.
+Getting dev data...there are 2038 samples.
+Getting test data...there are 2073 samples.
+Word feat size: 18, tag feat size: 18, deprel feat size: 12, classes size: 83
+2020-05-23 08:22:18.021023: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2020-05-23 08:22:18.030091: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-05-23 08:22:18.046738: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: LAPTOP-7FV8L4FQ
+2020-05-23 08:22:18.054483: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: LAPTOP-7FV8L4FQ
+2020-05-23 08:22:18.058990: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+Building model...
+        relu activation function
+        l2 regularization with beta 1e-07
+        5 hidden layer(s) with size 500
+        adam optimizer with learning rate 0.001
+took 0.7111 seconds
+
+================================================================================
+TRAINING
+================================================================================
+Epoch 0
+220116/220116 [==============================] - 45s 203us/step - Cross-entropy: 1.1544
+Test LAS: 0.5312 (BEST!),
+Test UAS: 0.6632
+Validation LAS: 0.5404 (BEST!),
+Validation UAS: 0.6663
+Epoch 1
+220116/220116 [==============================] - 42s 190us/step - Cross-entropy: 0.4857
+Test LAS: 0.6062 (BEST!),
+Test UAS: 0.6975
+Validation LAS: 0.6216 (BEST!),
+Validation UAS: 0.6989
+Epoch 2
+220116/220116 [==============================] - 45s 202us/step - Cross-entropy: 0.3915
+Test LAS: 0.6182 (BEST!),
+Test UAS: 0.7051
+Validation LAS: 0.6553 (BEST!),
+Validation UAS: 0.7290
+Epoch 3
+220116/220116 [==============================] - 47s 213us/step - Cross-entropy: 0.3545
+Test LAS: 0.6189 (BEST!),
+Test UAS: 0.6995
+Validation LAS: 0.6573 (BEST!),
+Validation UAS: 0.7261
+Epoch 4
+220116/220116 [==============================] - 45s 206us/step - Cross-entropy: 0.3340
+Test LAS: 0.6290 (BEST!),
+Test UAS: 0.7084
+Validation LAS: 0.6388,
+Validation UAS: 0.7062
+Epoch 5
+220116/220116 [==============================] - 45s 207us/step - Cross-entropy: 0.3203
+Test LAS: 0.6428 (BEST!),
+Test UAS: 0.7208
+Validation LAS: 0.6581 (BEST!),
+Validation UAS: 0.7234
+Epoch 6
+220116/220116 [==============================] - 45s 203us/step - Cross-entropy: 0.3090
+Test LAS: 0.6457 (BEST!),
+Test UAS: 0.7220
+Validation LAS: 0.6682 (BEST!),
+Validation UAS: 0.7349
+Epoch 7
+220116/220116 [==============================] - 48s 216us/step - Cross-entropy: 0.3014
+Test LAS: 0.6591 (BEST!),
+Test UAS: 0.7364
+Validation LAS: 0.6689 (BEST!),
+Validation UAS: 0.7366
+Epoch 8
+220116/220116 [==============================] - 47s 214us/step - Cross-entropy: 0.2944
+Test LAS: 0.6656 (BEST!),
+Test UAS: 0.7491
+Validation LAS: 0.6879 (BEST!),
+Validation UAS: 0.7567
+Epoch 9
+220116/220116 [==============================] - 43s 197us/step - Cross-entropy: 0.2873
+Test LAS: 0.6563,
+Test UAS: 0.7363
+Validation LAS: 0.6805,
+Validation UAS: 0.7494
+
+================================================================================
+TESTING
+================================================================================
+Restoring the best model weights found on the test set
+Test LAS: 0.6656, Test UAS: 0.7491
+Restoring the best model weights found on the dev set
+Validation LAS: 0.6879, Validation UAS: 0.7567
+Done!
