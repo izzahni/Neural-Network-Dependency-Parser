@@ -67,7 +67,7 @@ See the final result documentation in folder `output/final`
   | Arabic     |  73.1    |  78.5    |  73.6   |  79.1   |      64       |
   | Chinese    |  64,6    |  72.8    |  68.5   |  75.3   |      74       |
   | English    |  80.5    |  82.8    |  80.6   |  83.2   |      71       |
-  | Indonesian |  73.6    |  79.1    |  72.1   |  77.7   |      56       |
+  | Indonesian |  73.7    |  79.1    |  71.6   |  77.5   |      68       |
   
 - New Hyper-Parameters
   | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
