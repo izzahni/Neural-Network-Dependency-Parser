@@ -63,7 +63,7 @@ See the final result documentation in folder `output/final`
 - Based on the Paper
   | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
   | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
-  | Arabic     |  69.3    |  75.9    |  67.5   |  74.5   |      45       |
+  | Arabic     |  69.3    |  75.9    |  67.7   |  74.5   |      45       |
   | Chinese    |          |          |         |         |               |
   | English    |  80.1    |  82.7    |  80.7   |  83.2   |      58       |
   | Indonesian |  73.6    |  79.1    |  72.1   |  77.7   |      56       |
