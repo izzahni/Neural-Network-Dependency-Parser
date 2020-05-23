@@ -66,11 +66,11 @@ See the final result documentation in folder `output/final`
   | Arabic     |  69.3    |  75.9    |  67.5   |  74.5   |      45       |
   | Chinese    |          |          |         |         |               |
   | English    |  80.1    |  82.7    |  80.7   |  83.2   |      58       |
-  | Indonesian |          |          |         |         |               |
+  | Indonesian |  73.6    |  79.1    |  72.1   |  77.7   |      56       |
 - New Hyper-Parameters
   | Dataset    | Test LAS | Test UAS | Dev LAS | Dev UAS | Parsing Speed |
   | :--------: | :------: | :------: | :-----: | :-----: | :-----------: |
-  | Arabic     |          |          |         |         |               |
+  | Arabic     |  68.7    |  75.1    |  67.5   |  74.2   |      76       |
   | Chinese    |          |          |         |         |               |
   | English    |  80.4    |  83.0    |  81.1   |  83.7   |      98       |
-  | Indonesian |          |          |         |         |               |
+  | Indonesian |  74.9    |  80.4    |  72.7   |  78.6   |      79       |
