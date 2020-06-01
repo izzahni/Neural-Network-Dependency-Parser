@@ -60,7 +60,7 @@ ud_arabic = LazyCorpusLoader(
     'ud_arabic', UniversalDependencyCorpusReader, r'.*\.conll')
 
 ud_chinese = LazyCorpusLoader(
-    'ud_arabic', UniversalDependencyCorpusReader, r'.*\.conll')
+    'ud_chinese', UniversalDependencyCorpusReader, r'.*\.conll')
 
 ud_english = LazyCorpusLoader(
     'ud_english', UniversalDependencyCorpusReader, r'.*\.conll')
