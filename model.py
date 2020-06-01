@@ -460,7 +460,7 @@ def main(debug):
         test_sents = test_sents[:500]
         test_arcs = test_arcs[:500]
     if not debug:
-        weight_file = NamedTemporaryFile(delete=False, suffix='.weight', dir='model')
+        weight_file = NamedTemporaryFile(suffix='.weight', dir='model')
     with tf.Graph().as_default(), tf.compat.v1.Session() as session:
         print("Building model...", end=' ')
         start = time.time()
@@ -473,7 +473,8 @@ def main(debug):
         print(80 * "=")
         print("TRAINING")
         print(80 * "=")
-        best_las = 0.
+        best1_las = 0.
+        best2_las = 0.
         for epoch in range(config.n_epochs):
             print('Epoch {}'.format(epoch))
             if debug:
@@ -481,14 +482,24 @@ def main(debug):
             else:
                 model.fit_epoch(train_data)
             stdout.flush()
+            test_las, test_uas = model.eval(test_sents, test_arcs)
+            best1 = test_las > best1_las
+            if best1:
+                best1_las = test_las
+                if not debug:
+                    saver.save(session, weight_file.name)
+            print('Test LAS: ', end='')
+            print('{:.4f}{}'.format(test_las, ' (BEST!), ' if best1 else ', '))
+            print('Test UAS: ', end='')
+            print('{:.4f}'.format(test_uas))
             dev_las, dev_uas = model.eval(dev_sents, dev_arcs)
-            best = dev_las > best_las
-            if best:
-                best_las = dev_las
+            best2 = dev_las > best2_las
+            if best2:
+                best2_las = dev_las
                 if not debug:
                     saver.save(session, weight_file.name)
             print('Validation LAS: ', end='')
-            print('{:.4f}{}'.format(dev_las, ' (BEST!), ' if best else ', '))
+            print('{:.4f}{}'.format(dev_las, ' (BEST!), ' if best2 else ', '))
             print('Validation UAS: ', end='')
             print('{:.4f}'.format(dev_uas))
         if not debug:
@@ -496,15 +507,24 @@ def main(debug):
             print(80 * "=")
             print("TESTING")
             print(80 * "=")
+            print("Restoring the best model weights found on the test set")
+            saver.restore(session, weight_file.name)
+            stdout.flush()
+            las1,uas1 = model.eval(test_sents, test_arcs)
+            if las1:
+                print("Test LAS: ", end='')
+                print('{:.4f}'.format(las1), end=', ')
+            print("Test UAS: ", end='')
+            print('{:.4f}'.format(uas1))
             print("Restoring the best model weights found on the dev set")
             saver.restore(session, weight_file.name)
             stdout.flush()
-            las,uas = model.eval(test_sents, test_arcs)
-            if las:
-                print("Test LAS: ", end='')
-                print('{:.4f}'.format(las), end=', ')
-            print("Test UAS: ", end='')
-            print('{:.4f}'.format(uas))
+            las2,uas2 = model.eval(dev_sents, dev_arcs)
+            if las1:
+                print("Validation LAS: ", end='')
+                print('{:.4f}'.format(las2), end=', ')
+            print("Validation UAS: ", end='')
+            print('{:.4f}'.format(uas2))
             print("Done!")
 
     return 0
